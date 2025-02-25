@@ -7,7 +7,7 @@
 
   const baseURL = import.meta.env.DEV
     ? "/"
-    : "https://raw.githubusercontent.com/matschik/component-party/main/public/";
+    : "https://raw.githubusercontent.com/shelchin2023/learn-swiftui/main/public/";
 </script>
 
 <div class="flex items-center space-x-1">
