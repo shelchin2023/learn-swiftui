@@ -1,6 +1,6 @@
 <script>
     let count = $state(10);
     const doubleCount = $derived(count * 2);
-  </script>
+</script>
   
-  <div>{doubleCount}</div>
+<div>{doubleCount}</div>

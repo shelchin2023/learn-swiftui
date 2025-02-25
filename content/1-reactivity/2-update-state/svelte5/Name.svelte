@@ -1,6 +1,6 @@
 <script>
     let name = $state("John");
     name = "Jane";
-  </script>
+</script>
   
-  <h1>Hello {name}</h1>
+<h1>Hello {name}</h1>
