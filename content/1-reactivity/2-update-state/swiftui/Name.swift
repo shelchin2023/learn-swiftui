@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct NameView: View {
+struct Name: View {
     @State private var name: String = "John"
 
     var body: some View {
