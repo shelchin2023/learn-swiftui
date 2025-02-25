@@ -17,7 +17,7 @@ const footerLinks = footerNavigation.map((n) => n.links).flat();
 const templateDataDefaults = {
   title: "Learn SwiftUI",
   url: "https://component-party.dev/",
-  description: `Web component JS frameworks overview by their syntax and features: ${FRAMEWORKS.map((f) => f.title).join(", ")}`,
+  description: ``,
   image: "https://component-party.dev/banner2.png",
 };
 
