@@ -10,11 +10,6 @@ struct DoubleCount: View {
     var body: some View {
         VStack {
             Text("Double Count: \(doubleCount)")
-                .font(.largeTitle)
-                .padding()
-            
-            Stepper("Increment Count", value: $count)
-                .padding()
         }
     }
 }

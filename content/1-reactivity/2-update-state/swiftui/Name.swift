@@ -6,9 +6,6 @@ struct Name: View {
     var body: some View {
         VStack {
             Text("Hello \(name)")
-                .font(.largeTitle)
-                .padding()
-
             Button("Change Name") {
                 name = "Jane"
             }

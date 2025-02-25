@@ -5,7 +5,5 @@ struct Name: View {
     
     var body: some View {
         Text("Hello \(name)")
-            .font(.largeTitle)
-            .padding()
     }
 }
