@@ -26,12 +26,10 @@ export default function pluginGenerateFrameworkContent() {
       (await hashElement("frameworks.mjs")).hash;
 
     const contentDirLastHash = await contentDirFsCache.get("contentDirHash");
-
-    console.log(111111)
     if (contentDirHash !== contentDirLastHash) {
-      console.log(222222)
+ 
       await generateContent();
-      console.log(333333)
+ 
       await contentDirFsCache.set("contentDirHash", contentDirHash);
       logInfo(`done`);
     } else {
@@ -51,7 +49,6 @@ export default function pluginGenerateFrameworkContent() {
       try {
         await build();
       } catch (error) {
-        console.log(44)
         console.error(error);
         throw error;
       }

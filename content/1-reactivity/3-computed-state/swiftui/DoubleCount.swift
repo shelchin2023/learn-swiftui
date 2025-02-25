@@ -8,9 +8,6 @@ struct DoubleCount: View {
     }
     
     var body: some View {
-        VStack {
-            Text("Double Count: \(doubleCount)")
-        }
+      Text("Double Count: \(doubleCount)")
     }
 }
-

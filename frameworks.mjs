@@ -22,7 +22,7 @@ const frameworks = [
     // playgroundURL: "https://svelte-5-preview.vercel.app/",
     // documentationURL: "https://svelte-5-preview.vercel.app/docs",
     filesSorter(files) {
-      console.log(files);
+ 
       return sortAllFilenames(files, ["index.html", "app.js", "App.svelte"]);
     },
     // repositoryLink: "https://github.com/sveltejs/svelte",
@@ -76,7 +76,7 @@ const frameworks = [
 ];
 
 export function matchFrameworkId(id) {
-  console.log("caocao", { id });
+ 
   return frameworks.find(
     (framework) =>
       framework.id === id ||
