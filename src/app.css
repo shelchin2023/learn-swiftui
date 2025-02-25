@@ -1,0 +1,13 @@
+@supports (backdrop-filter: blur(10px)) {
+  [class*="bg-"].backdrop-blur {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+.no-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
