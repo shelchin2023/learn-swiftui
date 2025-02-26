@@ -33,7 +33,7 @@ class useFetchUsers: ObservableObject {
 struct User2: Identifiable, Decodable {
     let id = UUID()
     var name: Name
-    let picture: Picture
+    var picture: Picture
     
     struct Name: Decodable {
         var first: String
@@ -41,7 +41,7 @@ struct User2: Identifiable, Decodable {
     }
     
     struct Picture: Decodable {
-        let thumbnail: String
+        var thumbnail: String
     }
 }
 
