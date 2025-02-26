@@ -6,7 +6,6 @@ struct User {
     var favouriteColors: [String]
     var isAvailable: Bool
 }
-
  
 struct UserProfile: View {
     let user: User 
